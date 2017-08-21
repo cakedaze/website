@@ -1,0 +1,18 @@
+:root {
+  --black: #292929;
+  --white: #FFF;
+  --brand-default: #D17E15;
+  --brand-alt: #DE430B;
+  --brand-contrast: #333333;
+  --brand-light: #FAFAF6;
+}
+
+:root {
+  --typography-spacing-top: 1.414em;
+  --typography-spacing-bottom: 0.5em;
+}
+/*@custom-media --xs-viewport (min-width: 20em);*/
+@custom-media --s-viewport (min-width: 40em);
+@custom-media --m-viewport (min-width: 55em);
+@custom-media --l-viewport (min-width: 75em);
+/*@custom-media --xl-viewport (min-width: 100em);*/

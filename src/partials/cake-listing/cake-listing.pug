@@ -1,0 +1,16 @@
+- const cakesData = getCakesData('content/cakes')
+
+link(rel='stylesheet', href='/css/cake-listing.css')
+
+div.cake-listing-container
+  h2.cake-listing-title Cakes
+  ul.cake-listing
+    each cake in cakesData
+      li.cake-item
+        img.cake-item-image(src=cake.attributes.image, alt='')
+        div.cake-item-info
+          h3.cake-item-title= cake.attributes.title
+          div.cake-item-meta
+            p.cake-item-price Prijs: €#{cake.attributes.price}
+            p.cake-item-servings Porties: #{cake.attributes.servings}
+          p.cake-item-description= cake.body

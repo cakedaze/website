@@ -1,0 +1,23 @@
+- const originData = readMarkdown('./content/about/origin.md')
+- const tasteData = readMarkdown('./content/about/taste.md')
+- const expectationsData = readMarkdown('./content/about/expectations.md')
+
+link(rel='stylesheet', href='/css/about.css')
+
+div.about-container
+  h2.hidden-a11y-text About
+  section.about-section
+    div.about-section-head
+      h3= originData.attributes.title
+      img(src=originData.attributes.image, alt=originData.attributes.image-alt)
+    p.about-section-story= originData.body
+  section.about-section
+    div.about-section-head
+      h3= tasteData.attributes.title
+      img(src=tasteData.attributes.image, alt=tasteData.attributes.image-alt)
+    p.about-section-story= tasteData.body
+  section.about-section
+    div.about-section-head
+      h3= expectationsData.attributes.title
+      img(src=expectationsData.attributes.image, alt=expectationsData.attributes.image-alt)
+    p.about-section-story= expectationsData.body

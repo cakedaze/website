@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: cakedaze/cake-daze
+  branch: master
+
+media_folder: src/assets/media
+
+collections:
+  - name: about
+    label: About Sections
+    folder: content/about
+    create: false
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Image, name: image, widget: image}
+      - {label: Image description, name: image-alt, widget: string}
+      - {label: Body, name: body, widget: markdown}
+
+  - name: cakes
+    label: Cakes
+    folder: content/cakes
+    create: true
+    fields:
+      - {label: Name, name: title, widget: string}
+      - {label: Description, name: body, widget: text}
+      - {label: Category, name: category, widget: string}
+      - {label: Price, name: price, widget: number}
+      - {label: Servings, name: servings, widget: string}
+      - {label: Image, name: image, widget: image}
