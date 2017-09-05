@@ -21,7 +21,7 @@ const pseudoClassEnter = require('postcss-pseudo-class-enter');
 
 const server = require('browser-sync').create();
 
-const { readMarkdown, getCakesData } = require('./helpers.js');
+const { getAboutData, getCakesData } = require('./helpers.js');
 
 const netlifyCmsDir = path.parse(require.resolve('netlify-cms')).dir;
 
@@ -69,7 +69,7 @@ gulp.task('build:html', function () {
   return gulp.src(paths.html.src)
     .pipe(pug({
       locals: {
-        readMarkdown,
+        getAboutData,
         getCakesData,
       }
     }))
