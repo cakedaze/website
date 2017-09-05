@@ -16,5 +16,16 @@ function readMarkdown(file) {
 function getCakesData(directory) {
   return fs.readdirSync(directory)
     .map(file => readMarkdown(path.join(directory, file)))
+    .map(file => {
+      return Object.assign(
+        {},
+        file,
+        { 'attributes': Object.assign(
+          {},
+          file.attributes,
+          { 'image': path.join('/', 'assets', 'media', path.parse(file.attributes.image).base) }
+        )}
+      )
+    })
     .sort((a, b) => a.attributes.category.localeCompare(b.attributes.category));
 }
