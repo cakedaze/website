@@ -1,6 +1,6 @@
 ---
 title: Avocadocake met limoen-icing
-category: Cakes met fruit en/of groente
+category: Cakes met fruit/groente
 price: '15.00'
 servings: '12'
 image: /src/assets/media/Avocadocake met limoenicing.jpg
