@@ -1,6 +1,6 @@
 ---
 title: Red Fruit Traybake
-category: Cakes met groente/fruit
+category: Cakes met fruit/groente
 price: '20.00'
 servings: '20'
 image: /src/assets/media/red fruit traybake.jpg
