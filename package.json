@@ -36,6 +36,6 @@
     "postcss-pseudo-class-enter": "^3.0.1"
   },
   "dependencies": {
-    "netlify-cms": "^0.7.6"
+    "netlify-cms": "^1.1.0"
   }
 }
