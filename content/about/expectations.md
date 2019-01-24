@@ -1,5 +1,5 @@
 ---
-title: Bakken & bestellen
+title: Bakken
 image: /assets/media/heart.jpg
 image-alt: baking equipment
 ---
