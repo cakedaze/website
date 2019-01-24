@@ -22,7 +22,11 @@
 
 .cake-listing-title {
   position: relative;
+  margin-right: auto;
   margin-bottom: 3rem;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
   font-weight: bold;
 }
 
@@ -40,11 +44,14 @@
   margin-bottom: var(--typography-spacing-top);
 }
 
-.cake-listing-title, .cake-item-info {
+.cake-item-info {
   margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.cake-item-title {
+  margin-bottom: 0.5rem;
 }
 
 .cake-item-price, .cake-item-servings {
@@ -60,7 +67,7 @@
 }
 
 .cake-item-meta {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 @media (--m-viewport) {
@@ -70,8 +77,8 @@
 
   .cake-item {
     flex-basis: 50%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .cake-item-info {
