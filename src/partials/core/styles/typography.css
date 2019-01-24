@@ -50,6 +50,7 @@ a {
 }
 
 a::after {
+    visibility: hidden;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -59,12 +60,11 @@ a::after {
     background-color: var(--brand-contrast);
     content: '';
     transition: all 0.3s ease-in-out 0s;
-    visibility: hidden;
 }
 
 a:enter::after {
-    transform: scaleX(1);
     visibility: visible;
+    transform: scaleX(1);
 }
 
 ::selection {
