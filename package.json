@@ -16,16 +16,19 @@
     "server": "gulp server",
     "clean": "find ./dist ! -type d -delete"
   },
+  "dependencies": {
+    "netlify-cms": "^1.9.3"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "browser-sync": "^2.18.13",
     "css-declaration-sorter": "^2.0.1",
     "cssnano": "^3.10.0",
     "front-matter": "^2.1.2",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.0",
     "gulp-filter": "^5.0.1",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-image": "^2.10.1",
+    "gulp-image": "^4.4.1",
     "gulp-postcss": "^7.0.0",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
@@ -34,8 +37,5 @@
     "postcss-custom-properties": "^6.1.0",
     "postcss-import": "^10.0.0",
     "postcss-pseudo-class-enter": "^3.0.1"
-  },
-  "dependencies": {
-    "netlify-cms": "^1.9.3"
   }
 }
