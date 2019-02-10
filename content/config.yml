@@ -28,3 +28,12 @@ collections:
       - {label: Price, name: price, widget: number}
       - {label: Servings, name: servings, widget: string}
       - {label: Image, name: image, widget: image}
+
+  - name: events
+    label: Events
+    folder: content/events
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Description, name: body, widget: text}
+      - {label: Image, name: image, widget: image}
