@@ -1,4 +1,5 @@
 link(rel='stylesheet', href='/css/header.css')
+script(async src='/js/header.js')
 
 header
   h1
@@ -7,6 +8,6 @@ header
 
   nav
     ul.header-navigation
-      li: a(href='#about') About
-      li: a(href='#cake-listing') Cakes
-      li: a(href='#contact') Contact
+      li: a(href='#cake-listing' data-scroll-link) Cakes
+      li: a(href='#events' data-scroll-link) Events
+      li: a(href='#contact' data-scroll-link) Contact

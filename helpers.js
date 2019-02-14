@@ -7,6 +7,7 @@ const path = require('path');
 module.exports = {
   getAboutData,
   getCakesData,
+  getEventsData,
 };
 
 function getAboutData(file) {
@@ -22,6 +23,10 @@ function getCakesData(directory) {
     .sort((a, b) => a.attributes.category.localeCompare(b.attributes.category));
 }
 
+function getEventsData(directory) {
+  return fs
+    .readdirSync(directory)
+    .map(file => readMarkdown(path.join(directory, file)));
 }
 
 function readMarkdown(file) {
