@@ -22,8 +22,6 @@ function getCakesData(directory) {
     .sort((a, b) => a.attributes.category.localeCompare(b.attributes.category));
 }
 
-}
-
 function readMarkdown(file) {
   return frontMatter(fs.readFileSync(file, 'utf8'));
 }
