@@ -11,6 +11,8 @@ html {
 body {
     min-width: 20em;
     margin: 0 auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 img {
