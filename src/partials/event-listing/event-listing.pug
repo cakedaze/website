@@ -1,0 +1,13 @@
+- const eventData = getEventsData('content/events')
+
+link(rel='stylesheet', href='/css/event-listing.css')
+
+div.event-listing-container
+  h2.event-listing-title Events
+  ul.event-listing
+    each event in eventData
+      li.event-item
+        img.event-item-image(src=event.attributes.image, alt='')
+        div.event-item-info
+          h3.event-item-title= event.attributes.title
+          p.event-item-description= event.body

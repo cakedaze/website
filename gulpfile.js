@@ -21,7 +21,11 @@ const pseudoClassEnter = require('postcss-pseudo-class-enter');
 
 const server = require('browser-sync').create();
 
-const { getAboutData, getCakesData } = require('./helpers.js');
+const {
+  getAboutData,
+  getCakesData,
+  getEventsData,
+} = require('./helpers.js');
 
 const netlifyCmsDir = path.parse(require.resolve('netlify-cms')).dir;
 
@@ -71,6 +75,7 @@ gulp.task('build:html', function () {
       locals: {
         getAboutData,
         getCakesData,
+        getEventsData,
       }
     }))
     .pipe(htmlmin({
@@ -108,6 +113,9 @@ gulp.task('build:js', function () {
   return gulp.src(paths.js.src, {
       since: gulp.lastRun('build:js')
     })
+    .pipe(rename({
+      dirname: '',
+    }))
     .pipe(gulp.dest(paths.js.dist));
 });
 
@@ -208,12 +216,15 @@ gulp.task('server', function(done) {
       baseDir: './dist/',
       serveStaticOptions: {
         extensions: ['html'],
-      }
+      },
     },
-    browser: 'chromium-browser',
+    open: false,
   });
 
   done();
 });
 
-gulp.task('default', gulp.parallel('server', gulp.series('format', 'build', 'watch')));
+gulp.task(
+  'default',
+  gulp.parallel('server', gulp.series('format', 'build', 'watch'))
+);

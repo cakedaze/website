@@ -1,0 +1,69 @@
+@import '../core/styles/variables.css';
+
+.event-listing-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  background-color: var(--brand-contrast);
+  color: var(--white);
+}
+
+.event-listing-title {
+  position: relative;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-weight: bold;
+}
+
+.event-listing-title::after {
+  position: absolute;
+  bottom: -0.7rem;
+  left: 1%;
+  width: 100%;
+  height: 1px;
+  background: var(--white);
+  content: '';
+}
+
+.event-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: calc(2 * var(--typography-spacing-top));
+  max-width: 35rem;
+}
+
+.event-item-image {
+  margin-bottom: var(--typography-spacing-top);
+}
+
+.event-item-info {
+  margin-right: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.event-item-title {
+  margin-bottom: 0.5rem;
+}
+
+@media (--m-viewport) {
+  .event-item {
+    flex-basis: 50%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .event-item-info {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
