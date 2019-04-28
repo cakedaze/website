@@ -1,5 +1,5 @@
 ---
-title: Kruidige Tulband Cake met pompoen
+title: Kruidige Tulband met pompoen
 category: Cakes met fruit/groente
 price: '15.00'
 servings: '12'
