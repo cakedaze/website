@@ -37,8 +37,8 @@
 .event-item {
   display: flex;
   flex-direction: column;
-  margin-bottom: calc(2 * var(--typography-spacing-top));
   max-width: 35rem;
+  margin-bottom: calc(2 * var(--typography-spacing-top));
 }
 
 .event-item-image {
