@@ -1,8 +1,8 @@
 ---
 title: Velvet Cake
 category: Cakes met chocolade
-price: '28.00'
+price: 25
 servings: 14+
-image: /assets/media/velvet cake.jpg
+image: /assets/media/red-velvet.jpg
 ---
 Hemelse combinatie van drie lagen luchtige cake met witte chocolade frosting.
