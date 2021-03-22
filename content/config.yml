@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: cakedaze/cake-daze
+  repo: cakedaze/website
   branch: sauce
 
 media_folder: src/assets/media
