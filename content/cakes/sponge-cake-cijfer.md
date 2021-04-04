@@ -1,8 +1,8 @@
 ---
 title: Sponge Cake Cijfer
 category: Cakes
-price: '14.00'
-servings: '12'
+price: 20
+servings: 12 of meer
 image: /assets/media/Sponge cijfers.jpg
 ---
 Sponge Cake met room-jamvulling in de vorm van elk gewenst cijfer.
