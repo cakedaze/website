@@ -127,6 +127,7 @@ gulp.task('build:media', function () {
     .pipe(responsive({
       '*.jpg': {
         width: 1000,
+        withoutEnlargement: false,
       },
     }))
     .pipe(responsiveImagesFilter.restore)
