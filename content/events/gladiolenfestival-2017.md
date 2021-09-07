@@ -1,6 +1,6 @@
 ---
-title: Gladiolenfestival 2017 t/m 2020
-image: /assets/media/gladiolen-2020-taart-en-achtergrond2.jpg
+title: Gladiolenfestival 2017 t/m 2021
+image: /assets/media/cakedaze-2020.jpg
 ---
 Een eerste uitnodiging om het mooie Gladiolenfestival van gladiolenveredelaarster Hermien Challa aan te vullen met mijn Engelse Cakes was in 2017. 
 Een weekend lang een tafel vol met Cake Daze favoriten op een geweldige locatie. Enthousiaste bezoekers  komen voor de prachtige bloemenvelden en kunnen daarnaast genieten van lekkers in de heerlijke theetuin. 
