@@ -9,7 +9,7 @@ const image = require('gulp-image');
 const postcss = require('gulp-postcss');
 const pug = require('gulp-pug');
 const rename = require('gulp-rename');
-const responsive = require('gulp-responsive');
+const jimp = require('gulp-jimp-wrapper');
 
 const autoprefixer = require('autoprefixer');
 const customProperties = require('postcss-custom-properties');
@@ -124,12 +124,13 @@ gulp.task('build:media', function () {
 
   return gulp.src(paths.media.src)
     .pipe(responsiveImagesFilter)
-    .pipe(responsive({
-      '*.jpg': {
-        width: 1000,
-        withoutEnlargement: false,
-      },
-    }))
+    .pipe(jimp((image) => image.resize(1000, -1)))
+    // .pipe(responsive({
+    //   '*.jpg': {
+    //     width: 1000,
+    //     withoutEnlargement: false,
+    //   },
+    // }))
     .pipe(responsiveImagesFilter.restore)
     .pipe(image())
     .pipe(gulp.dest(paths.media.dist));

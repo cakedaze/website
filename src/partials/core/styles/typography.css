@@ -7,9 +7,9 @@ html {
 body {
   background-color: var(--white);
   color: var(--black);
-  font-family: Baskerville, 'Libre Baskerville', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   font-weight: 400;
   line-height: 1.45;
+  font-family: Baskerville, 'Libre Baskerville', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
 h1, h2, h3, h4 {
@@ -79,10 +79,10 @@ a:enter::after {
 }
 
 @font-face {
-    src: url('/assets/fonts/sans-guilt.woff2') format('woff2'),
-         url('/assets/fonts/sans-guilt.woff') format('woff');
-    font-family: 'Sans Guilt';
-    font-size: 2em;
     font-style: normal;
     font-weight: normal;
+    src: url('/assets/fonts/sans-guilt.woff2') format('woff2'),
+         url('/assets/fonts/sans-guilt.woff') format('woff');
+    font-size: 2em;
+    font-family: 'Sans Guilt';
 }
