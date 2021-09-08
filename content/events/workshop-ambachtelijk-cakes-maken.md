@@ -1,5 +1,5 @@
 ---
 title: Workshop ambachtelijk cakes maken
-image: /assets/media/Chocolate Fudge Cake with coffeefudge icing.jpg
+image: assets/media/mocca-chocca.jpg
 ---
 Drie uur samen bakken met een 11-jarige bakfanaat, dat was de opdracht die ik van haar oma kreeg. We hebben een Sponge Cake en een Chocolate Fudge Cake gebakken. De Chocolate Fudge Cake is van start tot finish gemaakt, de Sponge Cake is gemaakt en een reeds voorgebakken (Sponge) hebben we gedecoreerd en gevuld.
