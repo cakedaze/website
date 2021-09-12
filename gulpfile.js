@@ -45,7 +45,7 @@ const paths = {
     dist: './dist/js',
   },
   media: {
-    src: './src/assets/media/*.{svg,png,jpg}',
+    src: './src/assets/media/*.{svg,png,jpg,jpeg}',
     dist: './dist/assets/media',
   },
   fonts: {
@@ -120,17 +120,11 @@ gulp.task('build:js', function () {
 });
 
 gulp.task('build:media', function () {
-  const responsiveImagesFilter = filter(['**/*.jpg'], {restore: true});
+  const responsiveImagesFilter = filter(['**/*.jpg', '**/*.jpeg'], {restore: true});
 
   return gulp.src(paths.media.src)
     .pipe(responsiveImagesFilter)
     .pipe(jimp((image) => image.resize(1000, -1)))
-    // .pipe(responsive({
-    //   '*.jpg': {
-    //     width: 1000,
-    //     withoutEnlargement: false,
-    //   },
-    // }))
     .pipe(responsiveImagesFilter.restore)
     .pipe(image())
     .pipe(gulp.dest(paths.media.dist));
