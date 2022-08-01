@@ -12,5 +12,6 @@ zaterdag & zondag 20 en 21 augustus
 Op een prachtige locatie in Laag Soeren: 
 Jut van Breukelerwaardlaan 6, 6957 AS
 Tijd: 11 - 17 uur.
+www.challagladiolen.nl
 
 Toegang gratis 
