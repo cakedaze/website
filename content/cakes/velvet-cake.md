@@ -5,4 +5,4 @@ price: 25
 servings: 14+
 image: /assets/media/red-velvet.jpg
 ---
-Hemelse combinatie van drie lagen luchtige cake met witte chocolade frosting.
+Hemelse combinatie van twee lagen luchtige cake met witte chocolade frosting.
