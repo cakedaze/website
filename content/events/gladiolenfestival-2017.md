@@ -1,5 +1,5 @@
 ---
-title: Gladiolenfestival 2017 t/m 2023
+title: Gladiolenfestival 2017 t/m 2022
 image: assets/media/gladiool-en-kaat.jpeg
 ---
 Een eerste uitnodiging om het mooie Gladiolenfestival van gladiolenveredelaarster Hermien Challa aan te vullen met mijn Engelse Cakes was in 2017. 
