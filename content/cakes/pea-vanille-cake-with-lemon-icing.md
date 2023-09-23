@@ -1,7 +1,7 @@
 ---
 title: Pea & Vanilla Cake with Lemon Icing
 category: Cakes met groente
-price: 16
+price: 20
 servings: 8-10
 image: /assets/media/pea-and-vanille.jpg
 ---
