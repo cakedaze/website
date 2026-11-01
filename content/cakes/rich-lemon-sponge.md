@@ -1,7 +1,7 @@
 ---
 title: Rich Lemon Sponge
 category: Cakes met groente/fruit
-price: 20
+price: 25
 servings: "10"
 image: /assets/media/dsc02236.jpg
 ---
