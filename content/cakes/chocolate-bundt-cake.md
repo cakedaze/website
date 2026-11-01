@@ -1,7 +1,7 @@
 ---
 title: Chocolate Bundt Cake
 category: Cakes met chocolade
-price: 15
+price: 20
 servings: 12-16
 image: /assets/media/dsc02244.jpg
 ---
