@@ -1,7 +1,7 @@
 ---
 title: Sticky Toffee Cupcake
 category: Cupcakes
-price: 20
+price: 25
 servings: "12"
 image: /assets/media/sticky toffee cupcake.jpg
 ---
