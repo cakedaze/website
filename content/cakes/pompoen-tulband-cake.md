@@ -1,7 +1,7 @@
 ---
 title: Bundt Cake with pumpkin
 category: Cakes met fruit/groente
-price: 17
+price: 25
 servings: "14"
 image: /assets/media/Pompoentulband met kruiden.jpg
 ---
