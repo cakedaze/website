@@ -1,7 +1,7 @@
 ---
 title: Sponge Cake Cijfer
 category: Cakes
-price: 20
+price: 30
 servings: minimaal 12
 image: /assets/media/Sponge cijfers.jpg
 ---
