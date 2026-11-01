@@ -1,7 +1,7 @@
 ---
 title: Chocolate Guinness Cake
 category: Cakes met chocolade
-price: 23
+price: 25
 servings: 12 - 16
 image: /assets/media/Chocolate Guinness Cake.jpg
 ---
