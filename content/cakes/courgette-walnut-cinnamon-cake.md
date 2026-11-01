@@ -1,7 +1,7 @@
 ---
 title: Courgette Walnut Cinnamon Cake
 category: Cakes met fruit/groente
-price: '15.00'
+price: '30'
 servings: 10 - 12
 image: /assets/media/courgette-walnut-cinnamon-2020-2.jpg
 ---
