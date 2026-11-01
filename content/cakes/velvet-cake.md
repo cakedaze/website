@@ -1,7 +1,7 @@
 ---
 title: Velvet Cake
 category: Cakes met chocolade
-price: 25
+price: 30
 servings: 14+
 image: /assets/media/red-velvet.jpg
 ---
