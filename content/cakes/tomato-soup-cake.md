@@ -1,7 +1,7 @@
 ---
 title: Tomato Soup Cake
 category: Taarten met fruit en/of groente
-price: 20
+price: 30
 servings: "10"
 image: /assets/media/tomatosoup-cake-zijkant.jpg
 ---
